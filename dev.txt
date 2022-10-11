@@ -1,0 +1,87 @@
+    1  which git
+    2  yum install git
+    3  which git
+    4  git --version
+    5  hystory
+    6  hist
+    7  history
+    8  pwd
+    9  mkdir AWS_DevOps_Training 
+   10  cd AWS_DevOps_Training/
+   11  pwd
+   12  ls
+   13  cd ..
+   14  mv AWS_DevOps_Training Git_DevOps_Training
+   15  cd Git_DevOps_Training/
+   16  ls -la
+   17  git init
+   18  ls -la
+   19  history
+   20  touch welcome.txt
+   21  ll
+   22  git status
+   23  git add [root@ip-172-31-10-26 Git_DevOps_Training]# history
+   24      1  which git
+   25      2  yum install git
+   26      3  which git
+   27      4  git --version
+   28      5  hystory
+   29      6  hist
+   30      7  history
+   31      8  pwd
+   32      9  mkdir AWS_DevOps_Training 
+   33     10  cd AWS_DevOps_Training/
+   34     11  pwd
+   35     12  ls
+   36     13  cd ..
+   37     14  mv AWS_DevOps_Training Git_DevOps_Training
+   38     15  cd Git_DevOps_Training/
+   39     16  ls -la
+   40     17  git init
+   41     18  ls -la
+   42  clear
+   43  ls
+   44  git status 
+   45  git add welcome.txt
+   46  git status
+   47  git commit . -m "My First Commit"
+   48  git status 
+   49  ls -lrt 
+   50  history
+   51  clear
+   52  ll
+   53  touch test.txt
+   54  git status
+   55  git add test.txt 
+   56  git status
+   57  git commit test.txt -m "Adding test.txt file"
+   58  git status 
+   59  ll
+   60  vi welcome.txt 
+   61  vi welcome.txt 
+   62  cat welcome.txt 
+   63  git status
+   64  git add welcome.txt 
+   65  git commit -m "Added info in Welcome.txt"
+   66  git status
+   67  git branch
+   68  git branch Dev
+   69  git branch
+   70  git checkout Dev 
+   71  git branch
+   72  ll
+   73  touch dev.txt
+   74  git add .
+   75  git commit . -m "Added Dev.txt"
+   76  git status 
+   77  git branch
+   78  ll
+   79  git checkout master 
+   80  ll
+   81  history
+   82  clear
+   83  git branch
+   84  git checkout Dev 
+   85  git branch
+   86  ll
+   87  history > dev.txt
